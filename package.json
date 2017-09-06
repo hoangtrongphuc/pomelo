@@ -12,10 +12,12 @@
   "bugs": {
     "url": "https://github.com/NetEase/pomelo/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/NetEase/pomelo#license"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/NetEase/pomelo#license"
+    }
+  ],
   "keywords": [
     "pomelo",
     "framework",
@@ -25,23 +27,28 @@
     "server"
   ],
   "dependencies": {
-    "socket.io": "1.7.2",
+    "socket.io": "2.0.3",
+    "uws": "0.14.4",
     "async": "0.2.5",
     "seq-queue": "0.0.5",
     "crc": "0.2.0",
     "cliff": "0.1.8",
     "mkdirp": "0.3.3",
-    "pomelo-loader": "0.0.6",
     "pomelo-rpc": "1.0.7",
-    "pomelo-protocol": "0.1.6",
-    "pomelo-admin": "1.0.0",
+    "deepstream.io-client-js": "2.1.4",
+    "deepstream.io": "2.2.1",
+    "lodash": "3.10.1",
+    "shortid": "2.2.1",
+    "pomelo-loader": "git+https://git.vgame.us:16389/phucht/pomelo-loader.git",
+    "pomelo-protocol": "git+https://deploy:vietanha34@git.vgame.us:16389/root/poker-protocol.git#gzip",
+    "pomelo-admin": "*",
     "pomelo-logger": "0.1.7",
     "pomelo-scheduler": "0.3.9",
-    "ws": "1.1.1",
     "pomelo-protobuf": "0.4.0",
     "node-bignumber": "1.2.1",
     "commander": "2.0.0",
-    "mqtt": "0.3.9"
+    "mqtt": "0.3.9",
+    "tv4": "~1.1.4"
   },
   "bin": {
     "pomelo": "./bin/pomelo"
