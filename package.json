@@ -40,7 +40,7 @@
     "lodash": "3.10.1",
     "shortid": "2.2.1",
     "pomelo-loader": "git+https://git.vgame.us:16389/phucht/pomelo-loader.git",
-    "pomelo-protocol": "git+https://deploy:vietanha34@git.vgame.us:16389/root/poker-protocol.git#gzip",
+    "pomelo-protocol": "0.1.6",
     "pomelo-admin": "*",
     "pomelo-logger": "0.1.7",
     "pomelo-scheduler": "0.3.9",
